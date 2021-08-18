@@ -1,0 +1,98 @@
+@charset "utf-8";
+html{
+    font-size: 62.5%
+}
+body{
+    color: #222222;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    background: url("../img/uranainoyakata.jpg") center center / cover no-repeat fixed;
+}
+.title{
+    font-size: 4rem;
+    color: #ff3;
+    text-align: center;
+    margin: 200px 0 30px;
+}
+.title{
+    text-shadow:
+      1px 0 0 #800080,
+      0 1px 0 #800080,
+      -1px 0 0 #800080,
+      0 -1px 0 #800080
+  }
+.button_wrapper{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#uranai{
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    background-color: #fff3b8;
+}
+#uranaishi{
+    text-align: center;
+    display: none;
+}
+.taitles{
+    font-size: 2rem;
+    color: #ff3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.result_taitle{
+    width: 450px;
+    text-align: center;
+    margin: 50px 0 10px;
+}
+.result{
+    font-size: 3rem;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#echo1{
+    color: #ffffcc;
+    text-align: center;
+    width: 450px;
+}
+#echo2{
+    color: #ffffcc;
+    text-align: center;
+    width: 450px;
+}
+#echo3{
+    color: #ffffcc;
+    text-align: center;
+    width: 450px;
+}
+#echo1{
+    display: inline-block;
+	transition: all .3s ease 0s;
+	text-decoration: none;
+}
+#echo1:hover {
+	cursor: pointer;
+	transform: scale(2,2);
+}
+#echo2{
+    display: inline-block;
+	transition: all .3s ease 0s;
+	text-decoration: none;
+}
+#echo2:hover {
+	cursor: pointer;
+	transform: scale(2,2);
+}
+#echo3{
+    display: inline-block;
+	transition: all .3s ease 0s;
+	text-decoration: none;
+}
+#echo3:hover {
+	cursor: pointer;
+	transform: scale(2,2);
+}
+
+
